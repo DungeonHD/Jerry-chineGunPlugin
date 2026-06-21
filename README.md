@@ -82,3 +82,5 @@ This project is created solely for educational and entertainment purposes.
 
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute the plugin according to the license terms.
+
+<img width="386" height="375" alt="Screenshot 2026-06-20 235843" src="https://github.com/user-attachments/assets/7483ed49-81cb-4068-819c-7fb721dded2d" />
