@@ -1,0 +1,42 @@
+# Jerry-chine Gun
+
+item:
+  # Base material
+  material: GOLDEN_HORSE_ARMOR
+
+mana:
+  # Maximum mana of the simplified internal mana pool.
+  max: 1000.0
+  # Mana regenerated per second for every online player.
+  regen-per-second: 40.0
+  # Mana cost of the first shot in a "burst" (resets after reset-after-seconds).
+  base-cost: 30.0
+  # Additional mana cost added to each consecutive shot within the burst window.
+  cost-increment: 30.0
+  # Seconds of not firing after which the cost resets back to base-cost.
+  reset-after-seconds: 4.0
+
+ability:
+  # Flat damage dealt to mobs hit directly by the bullet.
+  damage: 1538.4
+  # Travel speed of the bullet in blocks/second.
+  bullet-speed-blocks-per-second: 45.0
+  # Maximum distance the bullet can travel before disappearing.
+  max-range: 40.0
+  # Hard cap on fire rate
+  fire-rate-cooldown-ms: 200
+  # If the impact point is within this many blocks of the shooter, they get knocked back.
+  knockback-radius: 2.5
+  knockback-upward: 2.5
+  knockback-horizontal: 2.5
+  # Random bullet spread cone, in degrees.
+  spread-degrees: 3.0
+  # Whether the bullet can pierce through walls that are exactly 1 block thick.
+  allow-wall-piercing: true
+  # Optional: base64 "Value" of a custom player-head skin so the bullet looks
+  # like an actual Jerry head instead of a plain/empty player head. Leave
+  # empty to keep the plain head.
+  # How to get one: go to https://minecraft-heads.com, search "Jerry", open
+  # a result, scroll down to the "Value" field under "More information" and
+  # paste that long base64 string here (keep it on one line, in quotes).
+  bullet-skull-texture: ""

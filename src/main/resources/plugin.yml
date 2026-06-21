@@ -1,0 +1,24 @@
+name: JerryGunPlugin
+description: $description
+version: '${version}'
+
+main: net.dungeonhd.jerryGunPlugin.JerryGunPlugin
+api-version: '26.1.2'
+load: POSTWORLD
+
+authors: [ DungeonHD ]
+website: https://www.dungeonhd.net
+
+commands:
+  giveitem:
+    description: Gives the Jerry-chine Gun to yourself or another player.
+    usage: /<command> [player]
+    permission: jerrychinegun.giveitem
+
+permissions:
+  jerrychinegun.giveitem:
+    description: Allows giving yourself the Jerry-chine Gun.
+    default: true
+  jerrychinegun.giveitem.others:
+    description: Allows giving the Jerry-chine Gun to other players.
+    default: op
